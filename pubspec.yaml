@@ -1,0 +1,50 @@
+name: tasks
+description: A simple task reminder app
+
+publish_to: 'none'
+version: 1.1.2+1
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  file_picker: ^3.0.2+2
+  flare_flutter: ^3.0.0
+  flutter_local_notifications: ^6.0.0
+  flutter_native_timezone: ^1.0.10
+  get: ^4.1.4
+  intl: ^0.17.0
+  path_provider: ^2.0.1
+  shared_preferences: ^2.0.5
+  sqflite: ^2.0.0+2
+  timezone: ^0.7.0
+  video_player: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_native_splash: ^1.1.8+4
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/order_by.flr
+    - assets/images/flop/1.jpg
+
+  fonts:
+    - family: "Circular Std"
+      fonts:
+        - asset: "assets/fonts/CircularStd-Book.ttf"
+          weight: 400
+        - asset: "assets/fonts/CircularStd-Medium.ttf"
+          weight: 500
+        - asset: "assets/fonts/CircularStd-Bold.ttf"
+          weight: 600
+        - asset: "assets/fonts/CircularStd-Black.ttf"
+          weight: 700
