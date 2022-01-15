@@ -1,16 +1,15 @@
-# Rhythmix
-## An online music streaming and downloading application.
+# Tasks App
+## A simple task manager written in Flutter.
 
 #### Features
-    Online song search
-    Streaming support
-    Offline download dupport
-    320Kbps m4a/mp3 format
-    ID3 tags attached
-  	Lyrics available
+    Save your tasks to the local storage.
+    Clean UI
+    Ambient colors.
+    Sync time zones.
+  	Theme modes.
 
 
-##### The integration has an end-point to the [unofficial JioSaavn API](https://github.com/sumitkolhe/jiosaavn-api).
+##### The integration has an official back to the [Flutter](https://flutter.dev/).
 Still the pre-release of this application is not stable enough for beta release. So here's what y'all supposed to do:
 
 ### Getting Started
@@ -27,5 +26,4 @@ With the SDK installed and added to path, you are now good to go:
 
 The output debug-apk can be found in the Android folder, in the default output location and the app is ready for further migration.
 
-<div align="center"><a href="https://drive.google.com/file/d/1uRbKsD6kl9Jw54mr4CL3_obYg6vl7ZzV/view">Get latest pre-release</a></div>
-<div align="center"><a href="https://www.buymeacoffee.com/sambhavsaxena">Sponser this project</a></div>
+<div align="center"><a href="https://drive.google.com/file/d/1qEpWmUqx9D1LFbjFQQgDAizoE-aI0_5a/view?usp=sharing">Get latest pre-release</a></div>
